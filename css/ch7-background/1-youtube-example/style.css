@@ -1,0 +1,25 @@
+body{
+    margin: 0; 
+    font-family: system-ui;
+}
+
+.hero{
+    /* Background color acts as a fallback if the background image fails to load */
+    background-color: #074f57;
+    background-image: url("./medium-landscape.jpeg");
+    background-size: cover;
+    color: white;
+    
+    /* height: 400px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1 rem;
+    
+}
