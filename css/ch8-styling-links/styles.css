@@ -1,0 +1,59 @@
+/* Apply a font to the entire page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* -----------------------------
+   1. LINK (default state)
+   -----------------------------
+   This styles links that have NOT been visited yet.
+   This should come first because other states override it.
+*/
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+/* -----------------------------
+   2. VISITED
+   -----------------------------
+   This styles links the user has already clicked.
+   Browsers limit what properties can change here
+   for privacy reasons (mostly colors).
+*/
+a:visited {
+    color: blue;
+}
+
+/* -----------------------------
+   3. HOVER
+   -----------------------------
+   This activates when the mouse pointer
+   moves over the link.
+*/
+a:hover {
+    color: green;
+}
+
+/* -----------------------------
+   4. FOCUS-VISIBLE
+   -----------------------------
+   This activates when the element receives
+   keyboard focus (usually when pressing TAB).
+
+   It helps keyboard users see which element
+   is currently selected.
+*/
+a:focus-visible {
+    color: yellow;
+}
+
+/* -----------------------------
+   5. ACTIVE
+   -----------------------------
+   This activates while the mouse button
+   is being pressed down on the link.
+*/
+a:active {
+    background: blue;
+}

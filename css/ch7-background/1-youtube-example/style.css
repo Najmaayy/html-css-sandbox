@@ -5,9 +5,10 @@ body{
 
 .hero{
     /* Background color acts as a fallback if the background image fails to load */
-    background-color: #074f57;
+    background-color: #1aaab4;
     background-image: url("./medium-landscape.jpeg");
     background-size: cover;
+    background-blend-mode: darken;
     color: white;
     
     /* height: 400px; */
